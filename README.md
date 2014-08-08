@@ -1,2 +1,4 @@
-Edison_Mezzanine_Console_Basic
-==============================
+Edison_Mezzanine_Base
+=====================
+
+Base Board for Edison Mezzanine stack
