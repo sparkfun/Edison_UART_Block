@@ -19885,9 +19885,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="90.17" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.25" y="128.778" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="91.44" y="124.46" smashed="yes">
-<attribute name="NAME" x="87.63" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="92.71" y="121.158" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="93.98" y="124.46" smashed="yes">
+<attribute name="NAME" x="90.17" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="95.25" y="121.158" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="78.74" y="53.34"/>
 <instance part="R8" gate="G$1" x="71.12" y="60.96" rot="R270"/>
@@ -20048,7 +20048,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GP135_UART_2_TX" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
 <label x="104.14" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -20174,7 +20174,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U1" gate="G$1" pin="A2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
