@@ -19869,6 +19869,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="30.48" y="114.3" size="1.778" layer="94">Black</text>
+<text x="30.48" y="132.08" size="1.778" layer="94">Green</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -19881,13 +19883,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SJ3" gate="G$1" x="226.06" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="223.52" y="104.14" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="93.98" y="127" smashed="yes">
-<attribute name="NAME" x="90.17" y="128.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="128.778" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="91.44" y="124.46" smashed="yes" rot="MR180">
+<attribute name="NAME" x="87.63" y="122.9614" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="122.682" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R7" gate="G$1" x="93.98" y="124.46" smashed="yes">
-<attribute name="NAME" x="90.17" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="121.158" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="91.44" y="127" smashed="yes" rot="MR180">
+<attribute name="NAME" x="87.63" y="130.5814" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="92.71" y="130.302" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="S1" gate="G$1" x="78.74" y="53.34"/>
 <instance part="R8" gate="G$1" x="71.12" y="60.96" rot="R270"/>
@@ -20048,15 +20050,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="GP135_UART_2_TX" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
-<label x="104.14" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="96.52" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
+<label x="104.14" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GP134_UART_2_RX" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<label x="104.14" y="127" size="1.27" layer="95" xref="yes"/>
+<wire x1="96.52" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<label x="104.14" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -20138,18 +20140,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="177.8" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="RXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="B1"/>
 <wire x1="33.02" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
+<label x="40.64" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TXD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="B2"/>
 <wire x1="50.8" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="4"/>
+<label x="40.64" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1.8V" class="0">
@@ -20166,15 +20170,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="A2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
