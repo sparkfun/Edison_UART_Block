@@ -19854,7 +19854,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device="SOIC14"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
@@ -19865,6 +19864,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
+<part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="1.8V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19914,7 +19914,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U1" gate="G$1" x="66.04" y="124.46" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="63.5" y="144.78"/>
 <instance part="GND2" gate="1" x="66.04" y="106.68"/>
-<instance part="GND5" gate="1" x="83.82" y="106.68"/>
 <instance part="SUPPLY3" gate="G$1" x="139.7" y="139.7"/>
 <instance part="SUPPLY4" gate="G$1" x="147.32" y="139.7"/>
 <instance part="SUPPLY5" gate="G$1" x="68.58" y="144.78"/>
@@ -19925,6 +19924,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND7" gate="1" x="15.24" y="119.38"/>
 <instance part="SUPPLY6" gate="G$1" x="15.24" y="129.54"/>
 <instance part="SUPPLY7" gate="G$1" x="129.54" y="129.54"/>
+<instance part="SUPPLY8" gate="G$1" x="83.82" y="132.08"/>
 </instances>
 <busses>
 </busses>
@@ -19989,12 +19989,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="OE"/>
-<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="132.08" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -20165,6 +20159,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="1.8V"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="OE"/>
+<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="1.8V"/>
 </segment>
 </net>
 <net name="N$3" class="0">
