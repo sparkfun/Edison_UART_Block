@@ -20757,8 +20757,8 @@ High-power, low thermal resistance package.</description>
 <sheets>
 <sheet>
 <plain>
-<text x="35.56" y="78.74" size="1.778" layer="94">Black</text>
-<text x="35.56" y="60.96" size="1.778" layer="94">Green</text>
+<text x="35.56" y="60.96" size="1.778" layer="94">Black</text>
+<text x="35.56" y="78.74" size="1.778" layer="94">Green</text>
 <text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="172.72" y="7.62" size="2.54" layer="94">Casey Kuhns</text>
 <text x="175.26" y="139.7" size="1.27" layer="97">DCIN Enable Circuit
@@ -21034,7 +21034,7 @@ Prevents Battery board from enabling DCIN</text>
 <wire x1="71.12" y1="144.78" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RXD" class="0">
+<net name="TXO" class="0">
 <segment>
 <label x="45.72" y="73.66" size="1.778" layer="95"/>
 <wire x1="38.1" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
@@ -21042,7 +21042,7 @@ Prevents Battery board from enabling DCIN</text>
 <pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="TXD" class="0">
+<net name="RXI" class="0">
 <segment>
 <label x="45.72" y="71.12" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
